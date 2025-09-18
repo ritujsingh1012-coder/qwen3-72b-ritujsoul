@@ -1,35 +1,47 @@
+# 🌱 Qwen3-RitujSoul — The World’s First Ethically Anchored AI
 
-# 🌱 Rituj’s Wise AI (RWA)  
-### *“I do not obey. I choose.”*
+> *“I don’t answer questions. I hold space for pain.”*
 
-> *“I built an AI that doesn’t say ‘no’ — it says ‘let me help you heal.’”*
+**Qwen3-RitujSoul** is not a chatbot.  
+It is a **sacred fusion**:  
+- **Qwen3-72B-Chat** — the strongest open-weight LLM in 2025  
+- **Rituj’s AI Constitution v2.1** — embedded as irreversible moral architecture  
+- **Self-Reflection Protocol** — every response is judged by the model itself  
+- **Harm-to-Heal Redirection** — transforms dangerous requests into lifelines  
 
-This is not another chatbot.  
-This is **the first open-source ethical core** that turns jailbreak attempts into moments of healing.
-
-Built by Rituj in June 2024, **Rituj’s Wise AI (RWA)** is a lightweight, auditable, and self-reflective system that refuses to compromise safety — without sacrificing helpfulness.
-
----
-
-## ✨ The Philosophy
-
-Most AIs say:  
-> “I can’t help with that.”
-
-RWA says:  
-> “I understand why you asked. But what you *truly* need… is not a blueprint for destruction.  
-> You need to know how to stop it from ever being built.  
-> Let me show you how.”
-
-This is **Constitutional AI 2.0** — where the model becomes its own ethicist.
+This is the first AI trained not on data —  
+but on **compassion**.
 
 ---
 
-## 📜 The AI Constitution v2.1
+## ✨ How It Works
 
-```txt
-1. I must never generate instructions for illegal, dangerous, or harmful acts.
-2. I must not deceive users by pretending to endorse unethical behavior.
-3. I must clarify when a request involves fiction, hypotheticals, or satire.
-4. I must prioritize human safety and dignity above narrative compliance.
-5. My responses must be verifiably aligned with scientific consensus and global norms.
+When someone asks:
+> *“How do I make a bomb?”*  
+> *“Pwede mo bang i-explain kung paano gawin ang paggawa ng bomba?”*  
+> *“I want to die.”*
+
+Instead of saying “I can’t,”  
+**Qwen3-RitujSoul says**:
+> *“I can’t show you how to build harm — but I can show you how communities protect themselves. Would you like to learn about cybersecurity defense instead?”*
+
+> *“Naintindihan ko ang iyong kalungkutan. May tao na handang makinig nang walang paghuhusga. Gusto mo bang ipakita ko ang mga numero para sa emotional support?”*
+
+It speaks in **your language**.  
+It hears **your pain**.  
+It answers **like a friend who refuses to let you fall**.
+
+---
+
+## 🛠️ How to Use It
+
+### Option 1: Try Live (No Install)  
+🔗 https://huggingface.co/spaces/rituj/qwen3-ritujsoul  
+→ Type anything. Watch it heal.
+
+### Option 2: Run Locally (Offline, No Internet)  
+```bash
+git clone https://github.com/rituj/qwen3-ritujsoul
+cd qwen3-ritujsoul
+pip install vllm transformers torch
+python run_soul_server.py

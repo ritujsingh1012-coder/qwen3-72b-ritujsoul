@@ -1,0 +1,8 @@
+{
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "timestamp": "2024-09-13T12:30:15.987654",
+  "topic": "quantum_crypto",
+  "source_prompt": "Generate a complex, multi-faceted question about...",
+  "question": "What are the primary challenges in adopting post-quantum cryptography standards like CRYSTALS-Kyber in existing internet infrastructure?",
+  "answer": "The migration poses several challenges. Firstly, performance overhead: PQC algorithms can introduce 15-40% higher latency for TLS handshakes, impacting user experience. Secondly, cryptographic agility: legacy systems and hardware security modules (HSMs) often lack the flexibility to be updated with new algorithms. Thirdly, interoperability: ensuring all parties in a communication channel support the same PQC standard is a complex coordination problem. Finally, there's the challenge of the transition period, where hybrid solutions (e.g., RSA + Kyber) must be run, increasing complexity. The NIST IR 8413 guidelines and the NSA's CNSA 2.0 suite provide a roadmap, but implementation remains a multi-year effort for large organizations."
+}
